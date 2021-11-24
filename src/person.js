@@ -14,10 +14,10 @@ class Person {
         // this.constructor.people = [...this.constructor.people, this];
     }
 }
-let name = "jack"
-let license = "454666"
-let email = "jack@gmail.com"
-let phone = "555-5555-555";
- let testperson = new Person(name,license,email,phone);
- console.log(Person.people);
+// let name = "jack"
+// let license = "454666"
+// let email = "jack@gmail.com"
+// let phone = "555-5555-555";
+//  let testperson = new Person(name,license,email,phone);
+//  console.log(Person.people);
 module.exports = Person;

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:report": "Jest --coverage=true"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/yacob-dita/scooter/issues"
   },
-  "homepage": "https://github.com/yacob-dita/scooter#readme"
+  "homepage": "https://github.com/yacob-dita/scooter#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
 }
