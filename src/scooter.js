@@ -1,4 +1,4 @@
-class Scooter{
+class Scooter {
     static currentId = 0;
     constructor(maxRange=32){
         this.maxRange = maxRange;
@@ -16,7 +16,16 @@ class Scooter{
         this.batteryLevel= 100
         this.setStatus("inservice")
     }
+    setMove(){
+        this.batteryLevel = 50;
+    }
+    // allScooter(){
+    //     this.scooter = scooter;
+
+    // }
 }
-let scooter1 = new Scooter();
-console.log(scooter1);
+let scootersA = new Scooter(1)
+let scootersB = new Scooter(2);
+console.log(scootersA);
+console.log(scootersB);
 module.exports = Scooter;
